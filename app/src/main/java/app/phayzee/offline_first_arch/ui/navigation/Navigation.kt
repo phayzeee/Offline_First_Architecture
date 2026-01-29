@@ -9,6 +9,7 @@ import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
 import androidx.navigation.navArgument
 import app.phayzee.offline_first_arch.ui.screens.NoteEditorScreen
+import app.phayzee.offline_first_arch.ui.screens.NotesListScreen
 
 /**
  * Navigation routes for the app.
