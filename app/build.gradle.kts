@@ -8,7 +8,7 @@ plugins {
 
 android {
     namespace = "app.phayzee.offline_first_arch"
-    compileSdk = 34
+    compileSdk = 35
 
     defaultConfig {
         applicationId = "app.phayzee.offline_first_arch"
@@ -72,7 +72,6 @@ dependencies {
     // WorkManager + Hilt
     implementation(libs.androidx.work.runtime.ktx)
     implementation(libs.hilt.work)
-    ksp(libs.hilt.work.compiler)
 
     // Coroutines
     implementation(libs.kotlinx.coroutines.android)
