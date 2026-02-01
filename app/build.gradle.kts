@@ -57,6 +57,7 @@ dependencies {
     implementation(libs.androidx.material3)
     implementation(libs.androidx.material.icons.extended)
     implementation(libs.androidx.navigation.compose)
+    implementation(libs.androidx.compose.material3)
     debugImplementation(libs.androidx.ui.tooling)
 
     // Room
@@ -75,4 +76,12 @@ dependencies {
 
     // Coroutines
     implementation(libs.kotlinx.coroutines.android)
+
+    // Unit tests
+    testImplementation(kotlin("test"))
+    testImplementation("junit:junit:4.13.2")
+
+    // Android instrumented tests
+    androidTestImplementation("androidx.test.ext:junit:1.1.5")
+    androidTestImplementation("androidx.test.espresso:espresso-core:3.5.1")
 }

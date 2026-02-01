@@ -4,7 +4,7 @@ kotlin = "2.0.21"
 coreKtx = "1.15.0"
 lifecycleRuntimeKtx = "2.10.0"
 activityCompose = "1.10.1"
-composeBom = "2024.05.00"
+composeBom = "2024.10.00"
 room = "2.7.0"
 hilt = "2.53.1"
 hiltNavigationCompose = "1.2.0"
@@ -13,6 +13,7 @@ hiltWork = "1.2.0"
 ksp = "2.0.21-1.0.25"
 coroutines = "1.9.0"
 navigationCompose = "2.8.5"
+material3 = "1.4.0"
 
 [libraries]
 androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
@@ -45,6 +46,7 @@ hilt-work = { group = "androidx.hilt", name = "hilt-work", version.ref = "hiltWo
 
 # Coroutines
 kotlinx-coroutines-android = { group = "org.jetbrains.kotlinx", name = "kotlinx-coroutines-android", version.ref = "coroutines" }
+androidx-compose-material3 = { group = "androidx.compose.material3", name = "material3", version.ref = "material3" }
 
 [plugins]
 android-application = { id = "com.android.application", version.ref = "agp" }
